@@ -156,6 +156,7 @@ passlib[bcrypt]
 psycopg2-binary
 pydantic
 pyjwt
+python-multipart
 sqlalchemy
 uvicorn[standard]
 ```
@@ -585,7 +586,7 @@ class UserDetail(BaseModel):
   - `username: str`: Define que el campo `username` es obligatorio y debe ser de tipo cadena de texto (`str`).
   - `email: EmailStr`: Define que el campo `email` es obligatorio y debe ser de tipo `EmailStr`, asegurando que sea un correo electrónico válido.
 
-Archivo `routers/users.py
+Archivo `routers/users.py`
 
 ```
 from fastapi import APIRouter, Depends, HTTPException

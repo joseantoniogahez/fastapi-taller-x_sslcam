@@ -1,0 +1,15 @@
+# Ignorar archivos y directorios innecesarios
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# Ignorar archivos de versiones y sistemas de control
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
